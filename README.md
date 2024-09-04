@@ -1,2 +1,2 @@
-- 分成Acceptor和Handler
-- 根据在Handler还是Acceptor自动为其中的fd添加事件处理函数
+- Router分成Acceptor和Handler
+- 根据Router是Handler还是Acceptor自动为其中的fd添加Callback
